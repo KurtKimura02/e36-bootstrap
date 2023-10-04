@@ -2,6 +2,126 @@
   color: grey;
 }
 
-nav.bg-dark {
+body {
+  background-color: ghostwhite;
+}
+
+div.gamecontent {
+  background-color: #f0f0f0;
+}
+
+div.leftmost {
+  margin-left: 25px;
+}
+
+div.rightmost {
+  margin-left: 75px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 189px;
+  left: 539px;
+  color: white;
+  background-color: red;
+  padding: 15px 32px;
+  font-weight: bold;
+}
+
+.spacer {
+  color: black;
+}
+
+button.readmore {
+  color: red;
+  background-color: white;
+  border: none;
+  padding: 15px 32px;
+  font-weight: bold;
+}
+
+footer.bottommost {
   background-color: black;
+  padding-bottom: 75px;
+}
+
+footer.socials {
+  background-color: #4d4d4d;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.bottominfo {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.extrapadding {
+  padding-top: 75px;
+  padding-left: 25px;
+}
+
+.changeregion {
+  padding: 12px 50px;
+  background-color: #4d4d4d;
+  color: white;
+  border: none;
+}
+
+.showmore {
+  padding: 12px 50px;
+  background-color: #c8c8c8;
+  color: black;
+  border: none;
+}
+
+.rowcontent {
+  padding-top: 15px;
+}
+
+.bottomrow {
+  padding-bottom: 15px;
+}
+
+.centered {
+  margin: auto;
+  display: block;
+}
+
+.socialbutton {
+  padding: 12px 50px;
+  background-color: #e6e6e6;
+  color: #4d4d4d;
+  border: none;
+}
+
+.newsletter {
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+}
+
+.bigbuttonright {
+  position: absolute;
+  bottom: 189px;
+  left: 539px;
+  color: white;
+  background-color: red;
+  padding: 15px 32px;
+  font-weight: bold;
+}
+
+.bigbuttonleft {
+  position: absolute;
+  bottom: 189px;
+  left: 539px;
+  color: white;
+  background-color: red;
+  padding: 15px 32px;
+  font-weight: bold;
 }
